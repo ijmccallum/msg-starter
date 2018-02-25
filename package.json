@@ -7,9 +7,9 @@
     "start": "run-p start:*",
     "start:server": "http-server ./docs/",
     "start:watch": "run-p watch:*",
-    "watch:markup": "sane \"npm run build:markup\" src --glob='**/*.js' --poll",
-    "watch:css": "sane \"npm run build:css\" src/css --glob='**/*.css' --poll",
-    "build:markup": "msg -io ./src/ ./docs/",
+    "watch:markup": "watch \"npm run build:markup\" src/markup",
+    "watch:css": "watch \"npm run build:css\" src/css",
+    "build:markup": "msg -io ./src/markup/ ./docs/",
     "build:css": "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map"
   },
   "repository": {
@@ -33,6 +33,6 @@
     "postcss-cssnext": "^3.1.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-import": "^11.1.0",
-    "sane": "^2.4.1"
+    "watch": "^1.0.2"
   }
 }
