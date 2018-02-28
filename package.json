@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/ijmccallum/msg-starter#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.1",
     "cli-table": "^0.3.1",
     "cssnano": "^3.10.0",
