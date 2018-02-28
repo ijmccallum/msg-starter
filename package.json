@@ -10,7 +10,10 @@
     "watch:markup": "watch \"npm run build:markup\" src/markup",
     "watch:css": "watch \"npm run build:css\" src/css",
     "build:markup": "msg -io ./src/markup/ ./docs/",
-    "build:css": "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map"
+    "build:css":
+      "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
+    "test:coverage": "node ./spec/coverage.js",
+    "precommit": "pretty-quick --staged"
   },
   "repository": {
     "type": "git",
@@ -23,16 +26,23 @@
   },
   "homepage": "https://github.com/ijmccallum/msg-starter#readme",
   "devDependencies": {
+    "chalk": "^2.3.1",
+    "cli-table": "^0.3.1",
     "cssnano": "^3.10.0",
+    "eslint-config-prettier": "^2.9.0",
     "html-minifier": "^3.5.8",
     "http-server": "^0.11.1",
+    "husky": "^0.14.3",
     "mini-site-generator": "^1.0.10",
     "npm-run-all": "^4.1.2",
+    "pa11y": "^5.0.1",
     "postcss": "^6.0.18",
     "postcss-cli": "^5.0.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-import": "^11.1.0",
+    "prettier": "^1.11.0",
+    "pretty-quick": "^1.4.1",
     "watch": "^1.0.2"
   }
 }
