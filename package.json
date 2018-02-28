@@ -12,7 +12,8 @@
     "build:markup": "msg -io ./src/markup/ ./docs/",
     "build:css":
       "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
-    "test:coverage": "node ./spec/coverage.js",
+    "test:coverage": "node ./test/coverage.js",
+    "test:a11y": "pa11y \"./docs/index.html\"",
     "precommit": "pretty-quick --staged"
   },
   "repository": {
