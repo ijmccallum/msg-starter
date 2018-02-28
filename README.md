@@ -6,11 +6,15 @@ builds to ./docs for use in github pages, or use netlify and point it to said do
 
 ## TODOs
 
-* [ ] prettier formatting on commit
-* [ ] a11y testing with pa11y (test against local files)
-* [ ] performance testing with pupateer, coverage budget, size budget
-* [ ] commit message linting
-* [ ] JS compiling
-* [ ] CI of some kind testing
-* [ ] pa11y full path / run on local server
-* [ ] pa11y follow links
+*   [ ] prettier formatting on commit
+*   [ ] a11y testing with pa11y (test against local files)
+*   [ ] performance testing with pupateer, coverage budget, size budget
+*   [ ] commit message linting
+*   [ ] JS compiling
+*   [ ] CI of some kind testing
+*   [ ] pa11y full path / run on local server
+*   [ ] pa11y follow links
+
+---
+
+Code will be formatted on commit. But you would probably enjoy it to format on save. Install [Prettier](https://prettier.io) for your editor of choice and feel the magic!

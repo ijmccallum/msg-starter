@@ -1,53 +1,57 @@
 {
-  "name": "msg-starter",
-  "version": "1.0.0",
-  "description": "Starter site for the mini site generator",
-  "main": "index.js",
-  "scripts": {
-    "start": "run-p start:*",
-    "start:server": "http-server ./docs/",
-    "start:watch": "run-p watch:*",
-    "watch:markup": "watch \"npm run build:markup\" src/markup",
-    "watch:css": "watch \"npm run build:css\" src/css",
-    "build:markup": "msg -io ./src/markup/ ./docs/",
-    "build:css":
-      "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
-    "test:coverage": "node ./test/coverage.js",
-    "test:a11y": "pa11y \"./docs/index.html\"",
-    "precommit": "pretty-quick --staged",
-    "xprepush": "npm run test:a11y"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ijmccallum/msg-starter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ijmccallum/msg-starter/issues"
-  },
-  "homepage": "https://github.com/ijmccallum/msg-starter#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "chalk": "^2.3.1",
-    "cli-table": "^0.3.1",
-    "cssnano": "^3.10.0",
-    "eslint-config-prettier": "^2.9.0",
-    "html-minifier": "^3.5.8",
-    "http-server": "^0.11.1",
-    "husky": "^0.14.3",
-    "mini-site-generator": "^1.0.10",
-    "npm-run-all": "^4.1.2",
-    "pa11y": "^5.0.1",
-    "postcss": "^6.0.18",
-    "postcss-cli": "^5.0.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-custom-media": "^6.0.0",
-    "postcss-import": "^11.1.0",
-    "prettier": "^1.11.0",
-    "pretty-quick": "^1.4.1",
-    "watch": "^1.0.2"
-  }
+    "name": "msg-starter",
+    "version": "1.0.0",
+    "description": "Starter site for the mini site generator",
+    "main": "index.js",
+    "scripts": {
+        "start": "run-p start:*",
+        "start:server": "http-server ./docs/",
+        "start:watch": "run-p watch:*",
+        "watch:markup": "watch \"npm run build:markup\" src/markup",
+        "watch:css": "watch \"npm run build:css\" src/css",
+        "build:markup": "msg -io ./src/markup/ ./docs/",
+        "build:css":
+            "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
+        "test:coverage": "node ./test/coverage.js",
+        "test:a11y": "pa11y \"./docs/index.html\"",
+        "precommit": "pretty-quick --staged",
+        "xprepush": "npm run test:a11y"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ijmccallum/msg-starter.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ijmccallum/msg-starter/issues"
+    },
+    "prettier": {
+        "printWidth": 100,
+        "tabWidth": 4
+    },
+    "homepage": "https://github.com/ijmccallum/msg-starter#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "chalk": "^2.3.1",
+        "cli-table": "^0.3.1",
+        "cssnano": "^3.10.0",
+        "eslint-config-prettier": "^2.9.0",
+        "html-minifier": "^3.5.8",
+        "http-server": "^0.11.1",
+        "husky": "^0.14.3",
+        "mini-site-generator": "^1.0.10",
+        "npm-run-all": "^4.1.2",
+        "pa11y": "^5.0.1",
+        "postcss": "^6.0.18",
+        "postcss-cli": "^5.0.0",
+        "postcss-cssnext": "^3.1.0",
+        "postcss-custom-media": "^6.0.0",
+        "postcss-import": "^11.1.0",
+        "prettier": "^1.11.0",
+        "pretty-quick": "^1.4.1",
+        "watch": "^1.0.2"
+    }
 }

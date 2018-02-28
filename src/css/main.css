@@ -2,18 +2,27 @@
 @import "base/normalize.css";
 @import "base/typography.css";
 
-
-body { overflow-x: hidden; }
-.screen-height { height: 100vh; }
-.v-center { vertical-align: middle; }
-span.v-center { display: inline-block; }
+body {
+    overflow-x: hidden;
+}
+.screen-height {
+    height: 100vh;
+}
+.v-center {
+    vertical-align: middle;
+}
+span.v-center {
+    display: inline-block;
+}
 .center-section {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.no-wrap { white-space: nowrap; }
+.no-wrap {
+    white-space: nowrap;
+}
 @media (max-width: 360px) {
     .hide-small {
         display: none;
@@ -25,7 +34,15 @@ span.v-center { display: inline-block; }
     right: 10px;
 }
 
-.z-1 { z-index: 1; }
-.z-2 { z-index: 2; }
-.position-relative { position: relative; }
-.padding-30 { padding: 30px; }
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+.position-relative {
+    position: relative;
+}
+.padding-30 {
+    padding: 30px;
+}
