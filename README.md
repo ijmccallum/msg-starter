@@ -12,3 +12,5 @@ builds to ./docs for use in github pages, or use netlify and point it to said do
 * [ ] commit message linting
 * [ ] JS compiling
 * [ ] CI of some kind testing
+* [ ] pa11y full path / run on local server
+* [ ] pa11y follow links
