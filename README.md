@@ -12,3 +12,4 @@ builds to ./docs for use in github pages, or use netlify and point it to said do
 * [ ] commit message linting
 * [ ] performance testing with pupateer, coverage budget, size budget
 * [ ] CI of some kind testing
+* [ ] Look into [prepack](https://prepack.io/) for improving js performance
