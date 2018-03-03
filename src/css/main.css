@@ -4,6 +4,7 @@
 @import "base/normalize.css";
 @import "base/typography-ratios.css";
 @import "base/typography-fonts.css";
+@import "base/typography-measure.css";
 @import "base/typography-link.css";
 
 @import "components/scrollbar.css";

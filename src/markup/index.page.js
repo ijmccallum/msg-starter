@@ -7,6 +7,7 @@ module.exports = function() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <title>Mini Site Generator</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
             <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
             <link href="main.css" rel="stylesheet">
         </head>
@@ -14,7 +15,7 @@ module.exports = function() {
 
             <section class="screen-height clr-white bg-black center-section">
                 <h1>MSG starter kit</h1>
-                <p><em>All the cool little nifty things that give a project that extra polish.</em></p>
+                <p>A personalised collection of the little things I've picked up from around the industry, the nifty things that give a project that extra polish.</p>
             </section>
 
             <section>
