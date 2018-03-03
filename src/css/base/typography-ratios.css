@@ -5,7 +5,14 @@ body {
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
 }
-/* http://type-scale.com/ changing scales depending on screen size */
+/* 
+http://type-scale.com/ 
+The basic text sizes change scales depending on screen size.
+The larger the screen size the more extreme the scale.
+For components, which may swap "notes" between screen sizes, 
+there are the breakpoint prefixed class names.
+The non prefixes h class names will act as the basic text els do.
+*/
 
 /* Perfect Forth */
 h1,
@@ -37,28 +44,34 @@ small {
 /* Augmented Forth */
 @media (--medium-up) {
     h1,
-    .h1 {
+    .h1,
+    .m-h1 {
         font-size: 3.998rem;
     }
     h2,
-    .h2 {
+    .h2,
+    .m-h2 {
         font-size: 2.827rem;
     }
     h3,
-    .h3 {
+    .h3,
+    .m-h3 {
         font-size: 1.999rem;
     }
     h4,
-    .h4 {
+    .h4,
+    .m-h4 {
         font-size: 1.414rem;
     }
     h5,
     .h5,
+    .m-h5,
     p {
         font-size: 1rem;
     }
     h6,
     .h6,
+    .m-h6,
     small {
         font-size: 0.707rem;
     }
@@ -67,28 +80,34 @@ small {
 /* Perfect fifth */
 @media (--large-up) {
     h1,
-    .h1 {
+    .h1,
+    .l-h1 {
         font-size: 5.063rem;
     }
     h2,
-    .h2 {
+    .h2,
+    .l-h2 {
         font-size: 3.375rem;
     }
     h3,
-    .h3 {
+    .h3,
+    .l-h3 {
         font-size: 2.25rem;
     }
     h4,
-    .h4 {
+    .h4,
+    .l-h4 {
         font-size: 1.5rem;
     }
     h5,
     .h5,
+    .l-h5,
     p {
         font-size: 1rem;
     }
     h6,
     .h6,
+    .l-h6,
     small {
         font-size: 0.667rem;
     }
@@ -97,50 +116,35 @@ small {
 /* The golden ratio */
 @media (--huge-up) {
     h1,
-    .h1 {
+    .h1,
+    .h-h1 {
         font-size: 6.854rem;
     }
     h2,
-    .h2 {
+    .h2,
+    .h-h2 {
         font-size: 4.236rem;
     }
     h3,
-    .h3 {
+    .h3,
+    .h-h3 {
         font-size: 2.618rem;
     }
     h4,
-    .h4 {
+    .h4,
+    .h-h4 {
         font-size: 1.618rem;
     }
     h5,
     .h5,
+    .h-h5,
     p {
         font-size: 1rem;
     }
     h6,
     .h6,
+    .h-h6,
     small {
         font-size: 0.618rem;
     }
-}
-.inline-code {
-    padding: 4px 8px;
-    border-radius: 4px;
-    background: var(--grey);
-    font-size: 16px;
-}
-
-.text-left {
-    text-align: left;
-}
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-
-::selection {
-    background: aquamarine;
-    color: black;
 }
