@@ -9,6 +9,7 @@
         "start:watch": "run-p watch:*",
         "watch:markup": "watch \"npm run build:markup\" src/markup",
         "watch:css": "watch \"npm run build:css\" src/css",
+        "watch:js": "watch \"npm run build:js\" src/js",
         "build:markup": "msg -io ./src/markup/ ./docs/",
         "build:css":
             "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
