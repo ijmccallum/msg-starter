@@ -1,0 +1,42 @@
+.static {
+    position: static;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+
+@media (--medium-up) {
+    .static-m {
+        position: static;
+    }
+    .relative-m {
+        position: relative;
+    }
+    .absolute-m {
+        position: absolute;
+    }
+    .fixed-m {
+        position: fixed;
+    }
+}
+
+@media (--large-up) {
+    .static-l {
+        position: static;
+    }
+    .relative-l {
+        position: relative;
+    }
+    .absolute-l {
+        position: absolute;
+    }
+    .fixed-l {
+        position: fixed;
+    }
+}

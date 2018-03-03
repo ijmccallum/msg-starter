@@ -1,0 +1,69 @@
+.dn {
+    display: none;
+}
+.di {
+    display: inline;
+}
+.db {
+    display: block;
+}
+.dib {
+    display: inline-block;
+}
+.dt {
+    display: table;
+}
+.dtc {
+    display: table-cell;
+}
+.dt-row {
+    display: table-row;
+}
+
+@media (--medium-up) {
+    .dn-m {
+        display: none;
+    }
+    .di-m {
+        display: inline;
+    }
+    .db-m {
+        display: block;
+    }
+    .dib-m {
+        display: inline-block;
+    }
+    .dt-m {
+        display: table;
+    }
+    .dtc-m {
+        display: table-cell;
+    }
+    .dt-row-m {
+        display: table-row;
+    }
+}
+
+@media (--large-up) {
+    .dn-l {
+        display: none;
+    }
+    .di-l {
+        display: inline;
+    }
+    .db-l {
+        display: block;
+    }
+    .dib-l {
+        display: inline-block;
+    }
+    .dt-l {
+        display: table;
+    }
+    .dtc-l {
+        display: table-cell;
+    }
+    .dt-row-l {
+        display: table-row;
+    }
+}
