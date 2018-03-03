@@ -1,8 +1,10 @@
 # msg-starter
 
-A starter repo for the mini site generator
+A static site starter kit.
 
-builds to ./docs for use in github pages, or use netlify and point it to said docs folder.
+*   [MSG](https://ijmccallum.github.io/Mini-Site-Generator/) to generate markup in a really _really_ flexible and simple way.
+*   [Rollup](https://rollupjs.org) and [Babel](https://babeljs.io) to bundle the JS in a concise and [performant](https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/) manner.
+*   [postcss](http://postcss.org/) to transpile super modern atomic ([tachyon like](http://tachyons.io/)) styles into cross-browser & mobile friendly CSS.
 
 ## TODOs
 

@@ -1,6 +1,8 @@
 "use strict";
-import "babel-polyfill";
+// import "babel-polyfill";
 
 function hiChrissy() {
     console.log("I lokve you!");
 }
+
+hiChrissy();

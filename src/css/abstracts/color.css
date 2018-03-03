@@ -1,3 +1,7 @@
+/*
+http://tachyons.io/docs/themes/skins/
+A big visual list of background and text colors that are a11y friendly
+*/
 :root {
     --black: #222222;
     --grey: #eae9e9;
@@ -6,13 +10,33 @@
     --blue: #12223f;
 }
 
-.clr-yellow { color: var(--yellow); }
-.clr-white { color: var(--white); }
-.clr-black { color: var(--black); }
-.bg-yellow { background-color: var(--yellow); }
-.bg-white { background-color: var(--white); }
-.bg-black { background-color: var(--black); }
-.bg-blue { background-color: var(--blue); }
-.fill-yellow { fill: var(--yellow); }
-.fill-white { fill: var(--white); }
-.fill-black { fill: var(--black); }
+.clr-yellow {
+    color: var(--yellow);
+}
+.clr-white {
+    color: var(--white);
+}
+.clr-black {
+    color: var(--black);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.fill-yellow {
+    fill: var(--yellow);
+}
+.fill-white {
+    fill: var(--white);
+}
+.fill-black {
+    fill: var(--black);
+}

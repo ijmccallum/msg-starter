@@ -12,6 +12,7 @@
         "build:markup": "msg -io ./src/markup/ ./docs/",
         "build:css":
             "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",
+        "build:js": "cross-env NODE_ENV=production rollup -c",
         "test:coverage": "node ./test/coverage.js",
         "test:a11y": "pa11y \"./docs/index.html\"",
         "precommit": "pretty-quick --staged",
@@ -33,10 +34,11 @@
     "homepage": "https://github.com/ijmccallum/msg-starter#readme",
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-polyfill": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
         "babel-preset-env": "^1.6.1",
         "chalk": "^2.3.1",
         "cli-table": "^0.3.1",
+        "cross-env": "^5.1.3",
         "cssnano": "^3.10.0",
         "eslint-config-prettier": "^2.9.0",
         "html-minifier": "^3.5.8",
@@ -52,6 +54,9 @@
         "postcss-import": "^11.1.0",
         "prettier": "^1.11.0",
         "pretty-quick": "^1.4.1",
+        "rollup": "^0.56.3",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-uglify": "^3.0.0",
         "watch": "^1.0.2"
     }
 }
