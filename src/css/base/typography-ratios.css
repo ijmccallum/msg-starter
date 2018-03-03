@@ -1,10 +1,30 @@
 html,
 body {
-    line-height: 1.15;
+    /* line height to 1 for non wrapping text and layout pieces */
+    line-height: 1;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.25;
+}
+
+/*
+https://www.w3.org/TR/WCAG20-TECHS/C21.html
+Line height between 1.5 and 2
+WCAG 2.0
+*/
+p {
+    line-height: 1.5;
+}
+
 /* 
 http://type-scale.com/ 
 The basic text sizes change scales depending on screen size.

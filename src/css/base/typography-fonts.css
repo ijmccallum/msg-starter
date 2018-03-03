@@ -1,5 +1,11 @@
 html,
-body {
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+p {
     /* Use system fonts */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
         Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;

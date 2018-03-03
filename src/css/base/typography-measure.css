@@ -1,3 +1,8 @@
+/*
+This part has been directly lifted from tachyons.
+It's all about line length and good readability.
+http://tachyons.io/docs/typography/measure/
+*/
 .measure {
     max-width: 30em;
 }

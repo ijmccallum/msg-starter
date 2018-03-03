@@ -1,3 +1,7 @@
+/*
+Just a nicety
+Having underlines that leave a little gap where descenders might intersect.
+*/
 a {
     background-color: transparent; /* 1 */
     -webkit-text-decoration-skip: objects; /* 2 */
