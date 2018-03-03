@@ -1,10 +1,14 @@
 @import "abstracts/color.css";
-@import "base/normalize.css";
-@import "base/typography.css";
+@import "abstracts/breakpoints.css";
 
-body {
-    overflow-x: hidden;
-}
+@import "base/normalize.css";
+@import "base/typography-ratios.css";
+@import "base/typography-fonts.css";
+@import "base/typography-link.css";
+
+@import "components/scrollbar.css";
+@import "components/spinner.css";
+
 .screen-height {
     height: 100vh;
 }
