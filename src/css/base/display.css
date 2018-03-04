@@ -19,6 +19,9 @@
 .dt-row {
     display: table-row;
 }
+df {
+    display: flex;
+}
 
 @media (--medium-up) {
     .dn-m {

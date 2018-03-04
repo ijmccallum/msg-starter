@@ -17,3 +17,6 @@
     background: var(--grey);
     font-size: 16px;
 }
+.nowrap {
+    white-space: nowrap;
+}

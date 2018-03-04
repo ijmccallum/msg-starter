@@ -20,3 +20,29 @@ A static site starter kit.
 *   [ ] CI of some kind testing
 *   [ ] Look into [prepack](https://prepack.io/) for improving js performance
 *   [ ] https://codellama.io/ automated code review!?
+
+## Components
+
+Rough outlines for common UI component design patterns.
+
+### Navigation
+
+*   [ ] Horizontal Scrolling Nav
+*   [ ] Stacking to horizontal
+*   [ ] Priority Plus
+
+### Forms
+
+*   [ ] Input with icon
+
+### Revelations
+
+*   [ ] Popin (slides in from the edge of a container, absolute position)
+*   [ ] Popout (slides out from the edge of a container, absolute position)
+*   [ ] Modal (Sides over the top of a container, absolute position)
+*   [ ] Drawer (expands from the edge of a container, static position _This will cause excessive repainting, use sparingly_)
+
+### Layouts
+
+*   [ ] Breakpoint columns
+*   [ ] Grids
