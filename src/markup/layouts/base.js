@@ -1,3 +1,11 @@
+/**
+ * It's unlikely that we'll need another layout for most projects
+ * unless you're doing something interesting.
+ * In which case - let me know what said interesting thing is!
+ * TODO: pass in a props object to modify parts of the base layout
+ * TODO: compile time testing of the props object... I guess there only really is compile time!
+ */
+
 module.exports = function(content) {
     return html`
         <!DOCTYPE html>

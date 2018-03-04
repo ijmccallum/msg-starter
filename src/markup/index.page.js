@@ -1,4 +1,4 @@
-import baseLayout from "./layouts/base.js";
+let baseLayout = require("./layouts/base.js");
 
 module.exports = function() {
     let pageContent = html`
