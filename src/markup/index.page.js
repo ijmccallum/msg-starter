@@ -12,19 +12,19 @@ module.exports = function() {
                 </div>
             </div>
             <div class="flex-row">
-                <div class="w-20 pa2">
+                <div class="w-20 pr3">
                     <div class="pb2">Input with icon</div>
                 </div>
-                <div class="w-20 pa2">
+                <div class="w-20 pr3">
                     <div class="pb2">Breakpoint columns</div>
                     <div class="pb2">Grids</div>
                 </div>
-                <div class="w-20 pa2">     
+                <div class="w-20 pr3">     
                     <div class="pb2">Stack to horizontal</div>
                     <div class="pb2">Priority Plus</div>
                     <div class="pb2">Horizontal Scroller</div>
                 </div>
-                <div class="w-20 pa2">
+                <div class="w-20 pr3">
                     <div class="pb2">Popin</div>
                     <div class="pb2">Popout</div>
                     <div class="pb2">Modal</div>
