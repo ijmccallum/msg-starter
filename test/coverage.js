@@ -16,7 +16,7 @@ const puppeteer = require("puppeteer");
 const chalk = require("chalk");
 const Table = require("cli-table");
 
-const URL = process.env.URL || "https://ijmccallum.github.io/msg-starter/build.html";
+const URL = process.env.URL || "https://ijmccallum.github.io/msg-starter";
 
 const EVENTS = ["domcontentloaded", "load", "networkidle0"];
 
