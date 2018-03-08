@@ -20,6 +20,7 @@ A static site starter kit.
 *   [ ] CI of some kind testing
 *   [ ] Look into [prepack](https://prepack.io/) for improving js performance
 *   [ ] https://codellama.io/ automated code review!?
+*   [ ] [container queries](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
 
 ## Components
 
