@@ -1,7 +1,6 @@
 html,
 body {
-    /* line height to 1 for non wrapping text and layout pieces */
-    line-height: 1;
+    line-height: 1.5;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
@@ -14,6 +13,7 @@ h4,
 h5,
 h6 {
     line-height: 1.25;
+    margin: 0 0 1rem;
 }
 
 /*
@@ -21,8 +21,15 @@ https://www.w3.org/TR/WCAG20-TECHS/C21.html
 Line height between 1.5 and 2
 WCAG 2.0
 */
-p {
+p,
+ul,
+ol,
+table,
+blockquote,
+pre,
+code {
     line-height: 1.5;
+    margin: 0 0 1rem;
 }
 
 /* 
@@ -48,7 +55,8 @@ h3,
     font-size: 1.777rem;
 }
 h4,
-.h4 {
+.h4,
+blockquote {
     font-size: 1.333rem;
 }
 h5,
@@ -80,6 +88,7 @@ small {
     }
     h4,
     .h4,
+    blockquote,
     .m-h4 {
         font-size: 1.414rem;
     }
@@ -116,6 +125,7 @@ small {
     }
     h4,
     .h4,
+    blockquote,
     .l-h4 {
         font-size: 1.5rem;
     }
@@ -152,6 +162,7 @@ small {
     }
     h4,
     .h4,
+    blockquote,
     .h-h4 {
         font-size: 1.618rem;
     }

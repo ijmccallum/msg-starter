@@ -11,9 +11,12 @@ a,
     text-decoration: none;
     text-shadow: 1px 1px 0 #f5f6f9, -1px 1px 0 #f5f6f9, -1px -1px 0 #f5f6f9, 1px -1px 0 #f5f6f9;
     background-image: linear-gradient(90deg, currentColor 100%, transparent 100%);
-    background-position: 0 1.08em;
+    background-position: 0 1.2em;
     background-repeat: repeat-x;
     background-size: 1px 1px;
+}
+p.underline {
+    background-position: 0 1.3em;
 }
 a::-moz-selection,
 .underline::-moz-selection {

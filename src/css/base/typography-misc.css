@@ -1,0 +1,18 @@
+/* The other elements */
+
+blockquote {
+    border-left: 6px solid #eee;
+    padding-left: 1em;
+}
+
+code {
+    background: #eee;
+    border-radius: 2px;
+    padding: 0.1em 0.4em;
+}
+
+pre code {
+    margin: 0;
+    display: block;
+    padding: 0.5em 1em;
+}
