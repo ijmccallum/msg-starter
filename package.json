@@ -7,9 +7,9 @@
         "start": "run-p start:*",
         "start:server": "http-server ./docs/",
         "start:watch": "run-p watch:*",
-        "watch:markup": "watch \"npm run build:markup\" src/markup",
-        "watch:css": "watch \"npm run build:css\" src/css",
-        "watch:js": "watch \"npm run build:js\" src/js",
+        "watch:markup": "watch \"npm run build:markup\" src/markup --interval=0.2",
+        "watch:css": "watch \"npm run build:css\" src/css --interval=0.2",
+        "watch:js": "watch \"npm run build:js\" src/js --interval=0.2",
         "build:markup": "msg -io ./src/markup/ ./docs/",
         "build:css":
             "postcss --use postcss-import postcss-custom-media autoprefixer cssnano -o docs/main.css src/css/main.css --no-map",

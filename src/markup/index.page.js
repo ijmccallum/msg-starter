@@ -2,18 +2,16 @@ let baseLayout = require("./layouts/base.js");
 
 module.exports = function() {
     let pageContent = html`
-        
-        
-        <section>
-                <p>A personalised collection of the little things I've picked up from around the industry, the nifty things that give a project that extra polish.</p>
-            <h1>H1 Giant Banner Heading</h1>
-            <h2>H2 Page Title</h2>
-            <h3>H3 Section title</h3>
-            <h4>H4 Sub Section title</h4>
-            <h5>H5 This is essentially paragraph text size</h5>
-            <h6>H6 Teeny tiny things!</h6>
-            <p><a href="#">Pretty text underline without clipping descending letters.</a></p>
-            <p class="underline">Pretty text underline without clipping descending letters.</p>
+        <section class="pa4 pt5">
+            <div class="width-constraint">
+                <div class="w-60-m mha">
+                    <p class="measure-wide">My own little boilerplate. A collection of good front end development ideas from all over the place. 
+                        It's a CSS library with some <em>slightly</em> opinionated kick off styles, 
+                        a collection of build tools &amp; testing scripts, 
+                        and a <a href="https://ijmccallum.github.io/Mini-Site-Generator/" class="underline">super simple static site generator</a>.</p>
+                </div>
+            </div>
+            <p>Need to find a home for this spinner</p>
             <div class="spinner"></div>
         </section>
     `;

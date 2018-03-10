@@ -5,5 +5,35 @@ select,
 textarea {
     font-size: 100%;
     line-height: 1.5;
-    margin: 0;
+    margin: 0.14em 0;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    background-color: var(--white);
+    border: 1px solid var(--util-clr);
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    width: 20em;
+    max-width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--focus-clr);
+}
+
+input:focus-within,
+select:focus-within,
+textarea:focus-within {
+    outline: 2px solid var(--focus-clr);
+}
+
+input:active,
+select:active,
+textarea:active {
+    outline: 2px solid var(--focus-clr);
 }

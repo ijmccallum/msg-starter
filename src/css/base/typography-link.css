@@ -5,8 +5,9 @@ Having underlines that leave a little gap where descenders might intersect.
 a {
     background-color: transparent; /* 1 */
     -webkit-text-decoration-skip: objects; /* 2 */
+    color: inherit;
 }
-a,
+
 .underline {
     text-decoration: none;
     text-shadow: 1px 1px 0 #f5f6f9, -1px 1px 0 #f5f6f9, -1px -1px 0 #f5f6f9, 1px -1px 0 #f5f6f9;
@@ -15,16 +16,17 @@ a,
     background-repeat: repeat-x;
     background-size: 1px 1px;
 }
+
 p.underline {
     background-position: 0 1.3em;
 }
-a::-moz-selection,
-.underline::-moz-selection {
-    background-color: rgba(0, 150, 255, 0.3);
+
+.underline::selection {
+    background-color: var(--focus-clr);
     text-shadow: none;
 }
-a::selection,
-.underline::selection {
-    background-color: rgba(0, 150, 255, 0.3);
-    text-shadow: none;
+
+.no-underline {
+    text-decoration: none;
+    background-image: none;
 }

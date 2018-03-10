@@ -9,6 +9,9 @@ A big visual list of background and text colors that are a11y friendly
     --white: #ffffff;
     --yellow: #f7df1e;
     --blue: #cdecff;
+    --focus-clr: aquamarine;
+    --util-clr: #eeeeee;
+    --util-alt: #dddddd;
 }
 
 .clr-yellow {

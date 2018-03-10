@@ -1,12 +1,12 @@
 /* The other elements */
 
 blockquote {
-    border-left: 6px solid #eee;
+    border-left: 6px solid var(--util-clr);
     padding-left: 1em;
 }
 
 code {
-    background: #eee;
+    background: var(--util-clr);
     border-radius: 2px;
     padding: 0.1em 0.4em;
 }

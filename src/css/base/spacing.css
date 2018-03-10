@@ -45,6 +45,7 @@ Personal preference!
        5 = 5th step in spacing scale
        6 = 6th step in spacing scale
        7 = 7th step in spacing scale
+       a = auto
   
      Media Query Extensions:
        -m  = medium
@@ -441,7 +442,10 @@ Personal preference!
     margin-left: var(--spacing-extra-extra-extra-large);
     margin-right: var(--spacing-extra-extra-extra-large);
 }
-
+.mha {
+    margin-left: auto;
+    margin-right: auto;
+}
 @media (--medium-up) {
     .pa0-m {
         padding: var(--spacing-none);
@@ -823,6 +827,10 @@ Personal preference!
     .mh7-m {
         margin-left: var(--spacing-extra-extra-extra-large);
         margin-right: var(--spacing-extra-extra-extra-large);
+    }
+    .mha-m {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1207,5 +1215,9 @@ Personal preference!
     .mh7-l {
         margin-left: var(--spacing-extra-extra-extra-large);
         margin-right: var(--spacing-extra-extra-extra-large);
+    }
+    .mha-l {
+        margin-left: auto;
+        margin-right: auto;
     }
 }

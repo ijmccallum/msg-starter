@@ -20,45 +20,44 @@ module.exports = function(content) {
                 <link href="main.css" rel="stylesheet">
             </head>
             <body>
-                <section class="clr-white bg-black pv5 ph4">
-                    <div class="flex-row">
-                        <div class="w-20">     
+                <section class="clr-white bg-black pt5 ph4">
+                    <div class="width-constraint">
+                        
+                        <p class="ma0">Iain's</p>
+                        <h1 class="h2 mt0"><a href="/" class="no-underline">MSG Starter Kit</a></h1>
+                    
+                        <div class="dib v-top pb5 pr3 w-30 w-20-m">
+                            <div class="pb2"><a href="/forms#buttons">Buttons</a></div>
+                            <div class="pb2"><a href="/forms#inputs">Inputs</div>
+                            <div class="pb2"><a href="/forms#radiocheck">Radiocheck</div>
                         </div>
-                        <div>
-                            <p class="ma0">Iain's</p>
-                            <h1 class="h2 mt0">MSG Starter Kit</h1>
-                        </div>
-                    </div>
-                    <div class="flex-row">
-                        <div class="w-20 pr3">
-                            <div class="pb2">Input with icon</div>
-                        </div>
-                        <div class="w-20 pr3">
+                        <div class="dib v-top pb5 pr3 w-30 w-20-m">
                             <div class="pb2">Breakpoint columns</div>
                             <div class="pb2">Grids</div>
                         </div>
-                        <div class="w-20 pr3">     
+                        <div class="dib v-top pb5 pr3 w-30 w-20-m">    
                             <div class="pb2">Stack to horizontal</div>
                             <div class="pb2">Priority Plus</div>
                             <div class="pb2">Horizontal Scroller</div>
                         </div>
-                        <div class="w-20 pr3">
+                        <div class="dib v-top pb5 pr3 w-30 w-20-m">
                             <div class="pb2">Popin</div>
                             <div class="pb2">Popout</div>
                             <div class="pb2">Modal</div>
                             <div class="pb2">Drawer</div>
                         </div>
-                        <div class="w-20 pr3">
-                            <div class="pb2">Headings</div>
-                            <div class="pb2">Paragraphs</div>
-                            <div class="pb2">Links</div>
-                            <div class="pb2">Lists</div>
-                            <div class="pb2">Tables</div>
-                            <div class="pb2">Other els</div>
+                        <div class="dib v-top pb5 pr3 w-30 w-20-m">
+                            <div class="pb2"><a href="/content#headings">Headings</a></div>
+                            <div class="pb2"><a href="/content#paragraphs">Paragraphs</a></div>
+                            <div class="pb2"><a href="/content#links">Links</a></div>
+                            <div class="pb2"><a href="/content#lists">Lists</a></div>
+                            <div class="pb2"><a href="/content#tables">Tables</a></div>
+                            <div class="pb2"><a href="/content#others">Other els</a></div>
                         </div>
                     </div>
                 </section>
                 ${content}
+                <section class="h-100v"></section>
             </body>
         </html>
     `;

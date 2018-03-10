@@ -8,7 +8,7 @@
     text-align: right;
 }
 ::selection {
-    background: aquamarine;
+    background: var(--focus-clr);
     color: black;
 }
 .inline-code {
