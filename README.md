@@ -22,6 +22,7 @@ A static site starter kit.
 *   [ ] https://codellama.io/ automated code review!?
 *   [ ] [container queries](https://philipwalton.com/articles/responsive-components-a-solution-to-the-container-queries-problem/)
 *   [ ] [boxy svg](https://boxy-svg.com/app) note this down somewhere for when I'm looking for icons
+*   [ ] [csp!](https://youtu.be/j-0Bj40juMI?t=899) write up details on this and set up a basic implementation
 
 ## Components
 
