@@ -50,7 +50,7 @@
         "mini-site-generator": "^1.0.10",
         "npm-run-all": "^4.1.2",
         "pa11y": "^5.0.1",
-        "postcss": "^6.0.18",
+        "postcss": "^7.0.36",
         "postcss-cli": "^5.0.0",
         "postcss-cssnext": "^3.1.0",
         "postcss-custom-media": "^6.0.0",
